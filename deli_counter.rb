@@ -11,6 +11,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli,new_person)
+  katz_deli = line(katz_deli)
   if katz_deli.length == 0
     katz_deli.push(new_person)
   else
