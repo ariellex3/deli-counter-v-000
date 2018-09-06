@@ -11,5 +11,5 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli,new_person)
-  new_person << katz_deli
+  katz_deli << new_person
 end
