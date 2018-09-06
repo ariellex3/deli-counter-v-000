@@ -11,4 +11,9 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli,new_person)
+  line_array = []
+  if katz_deli.length == 0
+    line_array.push(new_person)
+  else
+    false
 end
