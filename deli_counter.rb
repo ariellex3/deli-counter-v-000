@@ -16,4 +16,5 @@ def take_a_number(katz_deli,new_person)
     line_array.push(new_person)
   else
     false
+  end
 end
