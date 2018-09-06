@@ -11,7 +11,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli,new_person)
-  if line(katz_deli) = 0
+  if line(katz_deli) == 0
     puts testing
   else
     false
